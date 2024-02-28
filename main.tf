@@ -1,4 +1,3 @@
-resource "aws_sns_topic" "example_topic" {
-  name = "example_topic"
-  display_name = "Example SNS Topic"
+resource "aws_sns_topic" "test-topic-sm" {
+  name = "test-topic-sm-${var.env_name}"
 }
